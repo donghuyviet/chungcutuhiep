@@ -1,0 +1,173 @@
+********************************************************************************
+DUPLICATOR-LITE INSTALL-LOG
+STEP1 START @ 10:07:32
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+VERSION:	1.1.34
+PHP:		7.0.13 | SAPI: apache2handler
+PHP MEMORY:	2048M | SUHOSIN: disabled
+SERVER:		Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.13
+DOC ROOT:	C:/xampp/htdocs/chungcutuhiep
+DOC ROOT 755:	true
+LOG FILE 644:	true
+BUILD NAME:	20170324_chungcutuhiepplaza_58d49f3b7d0ef7310170324042323
+REQUEST URL:	http://chungcutuhiep.dev/installer.php
+
+********************************************************************************
+ARCHIVE SETUP
+********************************************************************************
+NAME:	20170324_chungcutuhiepplaza_58d49f3b7d0ef7310170324042323_archive.zip
+SIZE:	55.25MB
+ZIP:	Enabled (ZipArchive Support)
+
+EXTRACTING
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 6371
+    [filename] => C:\xampp\htdocs\chungcutuhiep\20170324_chungcutuhiepplaza_58d49f3b7d0ef7310170324042323_archive.zip
+    [comment] => 
+)
+File timestamp set to Current: 2017-03-23 22:09:00
+COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to *.170323220900.orig
+- Reset of .htaccess/web.config files
+
+UPDATED FILES:
+- SQL FILE:  'C:/xampp/htdocs/chungcutuhiep/installer-data.sql'
+- WP-CONFIG: 'C:/xampp/htdocs/chungcutuhiep/wp-config.php' (if present)
+
+ARCHIVE RUNTIME: 88.3213 sec.
+
+********************************************************************************
+DATABASE-ROUTINES
+********************************************************************************
+--------------------------------------
+SERVER ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.1.19 -- Build Server: 10.0.29
+FILE SIZE:	database.sql (2.36MB) - installer-data.sql (2.36MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+DROP TABLE:	removed (0) tables
+QUERIES RAN:	4149
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (1)
+wp_itsec_lockouts: (2)
+wp_itsec_log: (250)
+wp_itsec_temp: (37)
+wp_links: (0)
+wp_nf3_action_meta: (642)
+wp_nf3_actions: (31)
+wp_nf3_field_meta: (1160)
+wp_nf3_fields: (34)
+wp_nf3_form_meta: (446)
+wp_nf3_forms: (9)
+wp_nf3_object_meta: (0)
+wp_nf3_objects: (0)
+wp_nf3_relationships: (0)
+wp_options: (256)
+wp_postmeta: (915)
+wp_posts: (250)
+wp_term_relationships: (35)
+wp_term_taxonomy: (9)
+wp_termmeta: (0)
+wp_terms: (9)
+wp_usermeta: (34)
+wp_users: (1)
+Removed '63' cache/transient rows
+
+SECTION RUNTIME: 3.6732 sec.
+
+********************************************************************************
+STEP1 COMPLETE @ 10:09:04 - TOTAL RUNTIME: 92.0036 sec.
+********************************************************************************
+
+
+
+********************************************************************************
+DUPLICATOR-LITE INSTALL-LOG
+STEP2 START @ 10:09:55
+NOTICE: Do not post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	 utf8 
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_commentmeta^ (0)
+wp_comments~ (1)
+wp_duplicator_packages^ (0)
+wp_itsec_lockouts~ (2)
+wp_itsec_log~ (250)
+wp_itsec_temp~ (37)
+wp_links^ (0)
+wp_nf3_action_meta~ (642)
+wp_nf3_actions~ (31)
+wp_nf3_field_meta~ (1160)
+wp_nf3_fields~ (34)
+wp_nf3_form_meta~ (446)
+wp_nf3_forms~ (9)
+wp_nf3_object_meta^ (0)
+wp_nf3_objects^ (0)
+wp_nf3_relationships^ (0)
+wp_options~ (191)
+wp_postmeta~ (915)
+wp_posts~ (250)
+wp_term_relationships~ (35)
+wp_term_taxonomy~ (9)
+wp_termmeta^ (0)
+wp_terms~ (9)
+wp_usermeta~ (34)
+wp_users~ (1)
+--------------------------------------
+Search1:	'http://chungcutuhiep.dev' 
+Change1:	'http://chungcutuhiep.dev' 
+Search2:	'C:/xampp/htdocs/chungcutuhiep' 
+Change2:	'C:/xampp/htdocs/chungcutuhiep' 
+Search3:	'http:\/\/chungcutuhiep.dev' 
+Change3:	'http:\/\/chungcutuhiep.dev' 
+Search4:	'C:\/xampp\/htdocs\/chungcutuhiep' 
+Change4:	'C:\/xampp\/htdocs\/chungcutuhiep' 
+Search5:	'C%3A%2Fxampp%2Fhtdocs%2Fchungcutuhiep%2F' 
+Change5:	'C%3A%2Fxampp%2Fhtdocs%2Fchungcutuhiep%2F' 
+Search6:	'http%3A%2F%2Fchungcutuhiep.dev%2F' 
+Change6:	'http%3A%2F%2Fchungcutuhiep.dev' 
+Search7:	'C:\xampp\htdocs\chungcutuhiep' 
+Change7:	'C:/xampp/htdocs/chungcutuhiep' 
+SCANNED:	Tables:25 	|	 Rows:4056 	|	 Cells:23350 
+UPDATED:	Tables:0 	|	 Rows:0 	|	 Cells:0 
+ERRORS:		0 
+RUNTIME:	0.333800 sec
+
+********************************************************************************
+START FINAL CLEANUP: 10:09:55
+********************************************************************************
+NEW WP-ADMIN USER: New username 'admin' was created successfully 
+ 
+UPDATE `wp_blogs` SET domain = 'chungcutuhiep.dev' WHERE domain = 'chungcutuhiep.dev'
+
+--------------------------------------
+NOTICES
+--------------------------------------
+NOTICE: The wp-config.php has one or more of the following values set [WP_CONTENT_URL, COOKIE_DOMAIN].  Please validate these values are correct by opening the file and checking the values.  To validate the meaning and proper usage of each parameter used the codex link above.
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+created basic .htaccess file.  If using IIS web.config this process will need to be done manually.
+********************************************************************************
+STEP 2 COMPLETE @ 10:09:55 - TOTAL RUNTIME: 0.3925 sec.
+********************************************************************************

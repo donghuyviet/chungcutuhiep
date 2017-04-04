@@ -1,0 +1,33 @@
+[06-Mar-2017 14:55:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Memcached' not found in /home/chungcu4/public_html/wp-content/object-cache.php:825
+Stack trace:
+#0 /home/chungcu4/public_html/wp-content/object-cache.php(735): WP_Object_Cache->__construct()
+#1 /home/chungcu4/public_html/wp-includes/load.php(514): wp_cache_init()
+#2 /home/chungcu4/public_html/wp-settings.php(114): wp_start_object_cache()
+#3 /home/chungcu4/public_html/wp-config.php(188): require_once('/home/chungcu4/...')
+#4 /home/chungcu4/public_html/wp-load.php(37): require_once('/home/chungcu4/...')
+#5 /home/chungcu4/public_html/wp-blog-header.php(13): require_once('/home/chungcu4/...')
+#6 /home/chungcu4/public_html/index.php(17): require('/home/chungcu4/...')
+#7 {main}
+  thrown in /home/chungcu4/public_html/wp-content/object-cache.php on line 825
+[06-Mar-2017 14:56:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Memcached' not found in /home/chungcu4/public_html/wp-content/object-cache.php:825
+Stack trace:
+#0 /home/chungcu4/public_html/wp-content/object-cache.php(735): WP_Object_Cache->__construct()
+#1 /home/chungcu4/public_html/wp-includes/load.php(514): wp_cache_init()
+#2 /home/chungcu4/public_html/wp-settings.php(114): wp_start_object_cache()
+#3 /home/chungcu4/public_html/wp-config.php(188): require_once('/home/chungcu4/...')
+#4 /home/chungcu4/public_html/wp-load.php(37): require_once('/home/chungcu4/...')
+#5 /home/chungcu4/public_html/wp-blog-header.php(13): require_once('/home/chungcu4/...')
+#6 /home/chungcu4/public_html/index.php(17): require('/home/chungcu4/...')
+#7 {main}
+  thrown in /home/chungcu4/public_html/wp-content/object-cache.php on line 825
+[06-Mar-2017 14:56:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Memcached' not found in /home/chungcu4/public_html/wp-content/object-cache.php:825
+Stack trace:
+#0 /home/chungcu4/public_html/wp-content/object-cache.php(735): WP_Object_Cache->__construct()
+#1 /home/chungcu4/public_html/wp-includes/load.php(514): wp_cache_init()
+#2 /home/chungcu4/public_html/wp-settings.php(114): wp_start_object_cache()
+#3 /home/chungcu4/public_html/wp-config.php(188): require_once('/home/chungcu4/...')
+#4 /home/chungcu4/public_html/wp-load.php(37): require_once('/home/chungcu4/...')
+#5 /home/chungcu4/public_html/wp-blog-header.php(13): require_once('/home/chungcu4/...')
+#6 /home/chungcu4/public_html/index.php(17): require('/home/chungcu4/...')
+#7 {main}
+  thrown in /home/chungcu4/public_html/wp-content/object-cache.php on line 825
